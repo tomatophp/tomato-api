@@ -9,21 +9,6 @@ Full API CRUD Generator build on repository pattern
 ```bash
 composer require tomatophp/tomato-api
 ```
-after install run this command
-
-```bash
-php artisan tomato-api:install
-```
-
-## Using
-
-you can generate a new API CRUD by this command
-
-```bash
-php artisan tomato:api
-```
-
-it will ask you about table name and module name if you like to use HMVC arch
 
 ## Support
 
