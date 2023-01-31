@@ -1,0 +1,46 @@
+{
+    "name": "tomatophp/tomato-api",
+    "type": "library",
+    "description": "Full API CRUD Generator build on repository pattern",
+    "keywords": [
+        "php",
+        "laravel",
+        "template",
+        "API",
+        "CRUD Generator",
+        "Tomato"
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "TomatoPHP\\TomatoApi\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TomatoPHP\\TomatoApi\\TomatoApiServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Fady Mondy",
+            "email": "info@3x1.io"
+        },
+        {
+            "name": "Ahemd Elbana",
+            "email": "ahmed_elbana@aol.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0.2",
+        "tomatophp/console-helpers": "^1.0",
+        "krlove/eloquent-model-generator": "^2.0"
+    }
+}

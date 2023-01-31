@@ -1,0 +1,8 @@
+
+Route::middleware(['auth:sanctum'])->group(static function(){
+    Route::get('{{ table }}/index', [\{{ path }}\Http\Controllers\Api\{{ model }}ApiController::class,'index'])->name('{{ name }}.index');
+    Route::get('{{ table }}/show', [\{{ path }}\Http\Controllers\Api\{{ model }}ApiController::class,'show'])->name('{{ name }}.show');
+    Route::post('{{ table }}/store', [\{{ path }}\Http\Controllers\Api\{{ model }}ApiController::class,'store'])->name('{{ name }}.store');
+    Route::post('{{ table }}/update', [\{{ path }}\Http\Controllers\Api\{{ model }}ApiController::class,'update'])->name('{{ name }}.update');
+    Route::post('{{ table }}/delete', [\{{ path }}\Http\Controllers\Api\{{ model }}ApiController::class,'delete'])->name('{{ name }}.delete');
+});
