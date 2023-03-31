@@ -41,6 +41,6 @@
     "require": {
         "php": "^8.0.2",
         "tomatophp/console-helpers": "^1.0",
-        "krlove/eloquent-model-generator": "^2.0"
+        "tomatophp/tomato-model-generator": "^1.0"
     }
 }
